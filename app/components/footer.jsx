@@ -16,7 +16,7 @@ export default function InviteFooter() {
 
       {/* QR Code - square, centered, with light background for contrast */}
       <div className="bg-white p-4 rounded-xl shadow-lg">
-       \
+
         <img
           src="/qrcode.png"   // ← put real QR image here
           alt=" invite QR code"
