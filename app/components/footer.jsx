@@ -18,7 +18,7 @@ export default function InviteFooter() {
       <div className="bg-white p-4 rounded-xl shadow-lg">
        \
         <img
-          src="/your-qr-code.png"   // ← put real QR image here
+          src="/qrcode.png"   // ← put real QR image here
           alt=" invite QR code"
           className="w-48 h-48 md:w-44 md:h-44 object-contain"
           width={150}
