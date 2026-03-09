@@ -57,6 +57,12 @@ export default function HeroSection() {
           {/* RIGHT SIDE - Phone mockup */}
           <div className="flex justify-center lg:justify-end mt-12 lg:mt-0">
             <div className="relative max-w-[320px] sm:max-w-[360px] md:max-w-[380px] lg:max-w-[420px] w-full">
+              <a 
+                href="https://coffee-shop-rho-nine.vercel.app/" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="block hover:scale-105 transition-transform duration-300"
+              >
               <Image
                 src="/mobilescreen.png"
                 alt="Coffeenity mobile app preview"
@@ -66,6 +72,7 @@ export default function HeroSection() {
                 priority
                 quality={92}
               />
+              </a>
             </div>
           </div>
         </div>
