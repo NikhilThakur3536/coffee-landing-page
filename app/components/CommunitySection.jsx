@@ -1,6 +1,6 @@
 export default function CoffeeCommunity() {
   return (
-    <section className="w-full bg-[#5b2e05] text-white pt-12 sm:pt-16 pb-12 sm:pb-20">
+    <section className="w-full bg-[#362606] text-white pt-12 sm:pt-16 pb-12 sm:pb-20">
 
       {/* Heading */}
       <div className="max-w-6xl mx-auto px-5 sm:px-6 lg:px-8 text-center mb-10 sm:mb-14">
@@ -15,19 +15,19 @@ export default function CoffeeCommunity() {
 
         {/* Left stat */}
         <div className="text-center md:text-left">
-          <div className="flex items-center justify-center md:justify-start gap-3 sm:gap-4">
-            <h3 className="text-5xl sm:text-6xl md:text-7xl font-bold">36%</h3>
-            <span className="bg-green-100/20 text-green-300 text-xs sm:text-sm font-medium px-3 py-1 rounded-full border border-green-400/30">
+          <div className="flex max-w-125 items-center justify-center md:justify-center gap-3 sm:gap-4">
+            <h3 className="text-5xl  sm:text-6xl md:text-7xl font-bold">36%</h3>
+            <span className="bg-[#77D56C] text-[#366433] text-xs sm:text-sm font-medium px-3 py-1 rounded-full border border-green-400/30">
               ▲ 6.00%
             </span>
           </div>
-          <p className="mt-4 text-sm sm:text-base text-gray-200 max-w-md mx-auto md:mx-0">
+          <p className="mt-4 text-sm sm:text-md text-gray-200 max-w-125 md:mx-0">
             Up to 52% of US coffee drinkers may order coffee via mobile app in 2025, showing rapid growth in digital convenience.
           </p>
         </div>
 
         {/* Right stat */}
-        <div className="text-center md:text-right">
+        <div className="text-center ">
           <h3 className="text-5xl sm:text-6xl md:text-7xl font-bold">60%</h3>
           <p className="mt-4 text-sm sm:text-base text-gray-200 max-w-md mx-auto md:ml-auto">
             American consumers increasingly order their food online.
