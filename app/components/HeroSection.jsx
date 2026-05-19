@@ -30,7 +30,7 @@ export default function HeroSection() {
             <span className="text-yellow-400 md:text-4xl">AI-Powered</span>
             <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold leading-tight transform translate-x-48">
               <br className="sm:hidden" />
-              <span>Cooffee Community.</span>
+              <span>Coffee Community.</span>
             </h1>
 
             {/* QR + Text */}

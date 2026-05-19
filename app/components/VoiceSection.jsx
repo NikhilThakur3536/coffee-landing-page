@@ -27,13 +27,13 @@ export default function VoiceSection() {
           </ul>
 
           {/* Video/Image Card */}
-          <div className="rounded-xl overflow-hidden shadow-xl">
-            <Image
-              src="/voiceimg.png"
-              alt="App demo"
-              width={500}
-              height={300}
-              className="w-full"
+          <div className="rounded-xl overflow-hidden shadow-xl aspect-video">
+            <iframe
+              className="w-full h-full"
+              src="https://www.youtube.com/embed/YOUR_VIDEO_ID"
+              title="Coffee automation demo"
+              allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
             />
           </div>
 
@@ -63,13 +63,13 @@ export default function VoiceSection() {
           </p>
 
           {/* Video/Image Card */}
-          <div className="rounded-xl overflow-hidden shadow-xl">
-            <Image
-              src="/voiceimg.png"
-              alt="App demo"
-              width={500}
-              height={300}
-              className="w-full"
+          <div className="rounded-xl overflow-hidden shadow-xl aspect-video">
+            <iframe
+              className="w-full h-full"
+              src="https://www.youtube.com/embed/YOUR_VIDEO_ID"
+              title="Coffee automation demo"
+              allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
             />
           </div>
 
