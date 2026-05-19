@@ -4,6 +4,12 @@ export default function HeroSection() {
   return (
     <section className="relative w-full h-screen flex items-center justify-center overflow-hidden">
       {/* Background Image */}
+      <a 
+        href="https://coffee-shop-rho-nine.vercel.app/shopowner" 
+        target="_blank" 
+        rel="noopener noreferrer"
+        className="block"
+      >
       <Image
         src="/herosectionbg.png"
         alt="Background"
@@ -12,6 +18,7 @@ export default function HeroSection() {
         className="object-cover"
         quality={85}
       />
+      </a>
 
       <div className="relative z-10 w-full max-w-7xl mx-auto px-5 sm:px-8 md:px-12 lg:px-16 py-16 md:py-20 lg:py-24">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16 items-center">
